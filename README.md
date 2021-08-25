@@ -17,23 +17,23 @@ Then to find the optimum trajectory to strike the plane , we transformed the tra
 
 ![alt-text](https://github.com/Harsh-Gill/air_defense_simulation_ODE_Approximation/blob/main/animations/animation.gif)
 
-## 
+
 **The system is now detecting the planes position every 0.1 second , starting for t=0
 
 **Plane first seen at t=0 at [5000, -5000, 7000]
 **Plane then seen at t=0.1 at [4995.02, -4994.98, 7000.02]
-Plane then seen at t=0.2 at [4990.08, -4989.92, 7000.08]
+**Plane then seen at t=0.2 at [4990.08, -4989.92, 7000.08]
 
 **Using the 3 detected positions stated above The planes paramters of motions are
 **At the intial t = 0 With pos. x: 5000 y: -5000 z: 7000
-The intial speed was x: -49.999999999990905 y: 50.000000000009095 z: 9.094974773304898e-12
-The acceleration is x: 3.9999999999054117 y: 3.9999999999054117 z: 3.9999999999054117
+**The intial speed was x: -49.999999999990905 y: 50.000000000009095 z: 9.094974773304898e-12
+**The acceleration is x: 3.9999999999054117 y: 3.9999999999054117 z: 3.9999999999054117
 
 **For the missile to strike the plane at: 32 sec
-It must be fired at Speed in X-direc. : 17.801502639133254 Speed in Y-direc. : -4.4177003614652826 Speed in Z-direc. : 82.53753639900316
-position of plane at: 32 sec
-5447.999999951862 -1352.0000000481382 9047.999999951862
+**It must be fired at Speed in X-direc. : 17.801502639133254 Speed in Y-direc. : -4.4177003614652826 Speed in Z-direc. : 82.53753639900316
+**position of plane at: 32 sec
+**5447.999999951862 -1352.0000000481382 9047.999999951862
 
 **position of missile at 32 sec
-5448.000000064015 -1352.0000000807424 9047.999999895728 32 sec
+**5448.000000064015 -1352.0000000807424 9047.999999895728 32 sec
 
