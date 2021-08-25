@@ -9,9 +9,7 @@ More specifically , the methods used to obtain the trajectory shape was by using
 
 **Newtons Method**
 Then to find the optimum trajectory to strike the plane , we transformed the trajectory into a root-finding problem by expressing it as a difference between the position of the plane at time t and position of the missle at time t. Then we expressed a vector function F as the difference between these values and set the difference to 0. Following that, we taylor expand the values and disregard the higher order terms.  After , we invert the terms to express the velocity in terms of the partial derivatives. Then we use the newtons method to iteratively find the roots answers and thus the optimal speed to hit the plane in a specific time t. 
-![image](https://user-images.githubusercontent.com/70016426/130726270-2d2f82ff-9029-47f4-9032-5b1c231545dd.png)
-
-
+![image](https://user-images.githubusercontent.com/70016426/130726478-20a99e2a-c6af-41ff-9b4b-fc1bde603266.png)
 
 
 ![alt-text](https://github.com/Harsh-Gill/air_defense_simulation_ODE_Approximation/blob/main/animations/animation.gif)
