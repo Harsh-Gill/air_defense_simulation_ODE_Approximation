@@ -5,9 +5,11 @@ This project is for designing and simulating an air-defense system capable of ac
 
 **Runge-Kutta Method**
 More specifically , the methods used to obtain the trajectory shape was by using the Runge-Kutta method of the 4th Order , which can evaluate the differential equation of motion integral effectively. The Runge-Kutta method can take in a derivative of x and solve its integral by iterating over small steps and returning a value of the step multiplied by the derivative function to essentially solve the integral. We chose the 4th Order for this simulation as it is a relatively simple option (as higher order ones become increasingly complex ) but still gives accurate results up to the fifth power of the step.
+![image](https://user-images.githubusercontent.com/70016426/130725776-f099295d-0140-4f15-900d-fecf661e2133.png)
 
 **Newtons Method**
 Then to find the optimum trajectory to strike the plane , we transformed the trajectory into a root-finding problem by expressing it as a difference between the position of the plane at time t and position of the missle at time t. Then we expressed a vector function F as the difference between these values and set the difference to 0. Following that, we taylor expand the values and disregard the higher order terms.  After , we invert the terms to express the velocity in terms of the partial derivatives. Then we use the newtons method to iteratively find the roots answers and thus the optimal speed to hit the plane in a specific time t. 
+![image](https://user-images.githubusercontent.com/70016426/130726270-2d2f82ff-9029-47f4-9032-5b1c231545dd.png)
 
 
 
